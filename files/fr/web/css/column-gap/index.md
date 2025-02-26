@@ -7,7 +7,42 @@ slug: Web/CSS/column-gap
 
 La propriété **`column-gap`** permet de définir la taille des espaces ([gouttières](/fr/docs/Glossary/Gutters)) entre les colonnes d'un élément.
 
-{{EmbedInteractiveExample("pages/css/column-gap.html")}}
+{{InteractiveExample("CSS Demo: column-gap")}}
+
+```css interactive-example-choice
+column-gap: normal;
+```
+
+```css interactive-example-choice
+column-gap: 2rem;
+```
+
+```css interactive-example-choice
+column-gap: 9px;
+```
+
+```css interactive-example-choice
+column-gap: 12%;
+```
+
+```html interactive-example
+<section id="default-example">
+  <p id="example-element">
+    London. Michaelmas term lately over, and the Lord Chancellor sitting in
+    Lincoln's Inn Hall. Implacable November weather. As much mud in the streets
+    as if the waters had but newly retired from the face of the earth, and it
+    would not be wonderful to meet a Megalosaurus, forty feet long or so,
+    waddling like an elephantine lizard up Holborn Hill.
+  </p>
+</section>
+```
+
+```css interactive-example
+#example-element {
+  columns: 2;
+  text-align: left;
+}
+```
 
 La propriété `column-gap` était initialement définie dans le module de spécification [Colonnes CSS](/fr/docs/Web/CSS/CSS_multicol_layout). Cette définition a depuis été élargie afin de pouvoir être utilisée dans les différents modes de disposition et fait désormais partie du module de spécification [_Box Alignment_ (alignement des boîtes en CSS)](/fr/docs/Web/CSS/CSS_box_alignment). Cette propriété peut être utilisée pour les dispositions multi-colonnes, les dispositions flexibles et les dispositions en grille.
 

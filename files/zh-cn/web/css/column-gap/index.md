@@ -7,7 +7,42 @@ slug: Web/CSS/column-gap
 
 [CSS](/zh-CN/docs/Web/CSS) **`column-gap`** 属性用来设置元素列之间的间隔（{{glossary("gutters","gutter")}}）大小。
 
-{{EmbedInteractiveExample("pages/css/column-gap.html")}}
+{{InteractiveExample("CSS Demo: column-gap")}}
+
+```css interactive-example-choice
+column-gap: normal;
+```
+
+```css interactive-example-choice
+column-gap: 2rem;
+```
+
+```css interactive-example-choice
+column-gap: 9px;
+```
+
+```css interactive-example-choice
+column-gap: 12%;
+```
+
+```html interactive-example
+<section id="default-example">
+  <p id="example-element">
+    London. Michaelmas term lately over, and the Lord Chancellor sitting in
+    Lincoln's Inn Hall. Implacable November weather. As much mud in the streets
+    as if the waters had but newly retired from the face of the earth, and it
+    would not be wonderful to meet a Megalosaurus, forty feet long or so,
+    waddling like an elephantine lizard up Holborn Hill.
+  </p>
+</section>
+```
+
+```css interactive-example
+#example-element {
+  columns: 2;
+  text-align: left;
+}
+```
 
 `column-gap` 一开始是 [Multi-column 布局](/zh-CN/docs/Web/CSS/CSS_multicol_layout)下的特有属性，后来在其他布局中也使用这个属性。如 [CSS 盒子对齐](/zh-CN/docs/Web/CSS/CSS_box_alignment)中的表述，该属性已经可以在 Multi-column（多列布局）、Flexible Box（弹性盒子）以及 Grid layout（网格布局）中使用。
 
